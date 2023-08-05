@@ -1,0 +1,83 @@
+body{
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-size: 64px;
+    margin: 0;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    opacity: 80%;
+}
+
+footer {
+    text-align: center;
+    padding: 9px;
+    background-color: linear-gradient(to left, #C8E17F, #FFF3A4);
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+.textoopc{
+    text-align: center; 
+    margin: 0px; 
+    font-size: 36px; 
+    color: #D56B1D;
+}
+
+.opc{
+    width: 250px; 
+    padding: 20px
+}
+
+.banner{
+    padding: 100px 0px 200px 0px;
+    width: 1300px;
+
+}
+
+.bg{
+    background-image: linear-gradient(to bottom, #BFBF5E 75%, #58692E);
+}
+
+.menu-bar {
+    background-color: linear-gradient(to bottom, #BFBF5E 75%, #58692E);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Alinhar itens da barra horizontalmente */
+    justify-content: space-around; /* Espaçamento uniforme entre os itens */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 10px 0; /* Adicionar espaçamento interno */
+    font-size: 30px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
